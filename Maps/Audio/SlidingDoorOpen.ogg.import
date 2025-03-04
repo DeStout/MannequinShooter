@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://uyjf7rfhpepa"
+uid="uid://213u18isdtge"
 path="res://.godot/imported/SlidingDoorOpen.ogg-552210ab35153d8505e3631d9740d946.oggvorbisstr"
 
 [deps]
@@ -12,8 +12,8 @@ dest_files=["res://.godot/imported/SlidingDoorOpen.ogg-552210ab35153d8505e3631d9
 
 [params]
 
-loop=true
-loop_offset=0.0
-bpm=0.0
+loop=false
+loop_offset=0
+bpm=0
 beat_count=0
 bar_beats=4

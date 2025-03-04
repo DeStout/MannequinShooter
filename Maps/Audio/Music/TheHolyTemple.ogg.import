@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://cukakob2orkkd"
+uid="uid://c3400mrlw38rj"
 path="res://.godot/imported/TheHolyTemple.ogg-eefade873705d93550c18e9e25be23a9.oggvorbisstr"
 
 [deps]
@@ -12,8 +12,8 @@ dest_files=["res://.godot/imported/TheHolyTemple.ogg-eefade873705d93550c18e9e25b
 
 [params]
 
-loop=true
-loop_offset=55.0
-bpm=140.0
+loop=false
+loop_offset=0
+bpm=0
 beat_count=0
 bar_beats=4

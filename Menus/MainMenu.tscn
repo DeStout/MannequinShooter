@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://xqigunpk3hx3"]
 
 [ext_resource type="Theme" uid="uid://c1t8b0kfqb6ey" path="res://Menus/MenuTheme.tres" id="1_hpr53"]
-[ext_resource type="Script" path="res://Menus/MainMenu.gd" id="1_u2ktr"]
+[ext_resource type="Script" uid="uid://bpwbf67ob1dtk" path="res://Menus/MainMenu.gd" id="1_u2ktr"]
 [ext_resource type="AudioStream" uid="uid://bald4fr15ru7" path="res://Menus/Audio/boop.wav" id="2_keuxs"]
-[ext_resource type="Script" path="res://Menus/SinglePlayerMenu.gd" id="3_c06co"]
-[ext_resource type="Script" path="res://Menus/BotSimMenu.gd" id="3_co3mv"]
+[ext_resource type="Script" uid="uid://bpx11k13sh03r" path="res://Menus/SinglePlayerMenu.gd" id="3_c06co"]
+[ext_resource type="Script" uid="uid://efwg8nuyj0nf" path="res://Menus/BotSimMenu.gd" id="3_co3mv"]
 [ext_resource type="Texture2D" uid="uid://c3076nl1psi7c" path="res://Menus/DropDownCarot.png" id="4_rvtwg"]
 [ext_resource type="PackedScene" uid="uid://sr0hwfx8k4q2" path="res://Menus/OptionsMenu.tscn" id="5_ueokc"]
 
@@ -195,6 +195,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 0
 item_count = 2
 popup/item_0/text = "Level 1"
+popup/item_0/id = 0
 popup/item_1/text = "Test"
 popup/item_1/id = 1
 
@@ -348,6 +349,7 @@ theme = ExtResource("1_hpr53")
 selected = 2
 item_count = 3
 popup/item_0/text = "Lone Wolf"
+popup/item_0/id = 0
 popup/item_1/text = "Free For All"
 popup/item_1/id = 1
 popup/item_2/text = "Team Battle"
@@ -376,6 +378,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 2
 item_count = 3
 popup/item_0/text = "Square"
+popup/item_0/id = 0
 popup/item_1/text = "Bridge"
 popup/item_1/id = 1
 popup/item_2/text = "Temple"
@@ -423,6 +426,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 10
 item_count = 15
 popup/item_0/text = "None"
+popup/item_0/id = 0
 popup/item_1/text = "5"
 popup/item_1/id = 5
 popup/item_2/text = "10"
@@ -477,6 +481,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 9
 item_count = 26
 popup/item_0/text = "Unlimited"
+popup/item_0/id = 0
 popup/item_1/text = "0"
 popup/item_1/id = 1
 popup/item_2/text = "1"
@@ -537,6 +542,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 1
 item_count = 13
 popup/item_0/text = "Unlimited"
+popup/item_0/id = 0
 popup/item_1/text = "0"
 popup/item_1/id = 1
 popup/item_2/text = "5"
@@ -584,6 +590,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 7
 item_count = 17
 popup/item_0/text = "0"
+popup/item_0/id = 0
 popup/item_1/text = "1"
 popup/item_1/id = 1
 popup/item_2/text = "2"
@@ -640,6 +647,7 @@ theme_override_icons/arrow = ExtResource("4_rvtwg")
 selected = 1
 item_count = 2
 popup/item_0/text = "Off"
+popup/item_0/id = 0
 popup/item_1/text = "On"
 popup/item_1/id = 1
 

@@ -2,7 +2,7 @@
 
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
-uid="uid://xiktlu310cm4"
+uid="uid://1qbgkbjo5u75"
 path="res://.godot/imported/PerfectEye_v1_Looping_Demo.ogg-64124137ca34db0a62e3cfd6193ad5d3.oggvorbisstr"
 
 [deps]
@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/PerfectEye_v1_Looping_Demo.ogg-64124137ca34db
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
 bpm=0
 beat_count=0

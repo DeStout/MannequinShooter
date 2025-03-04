@@ -12,7 +12,7 @@ config_version=5
 
 config/name="MannequinShooter"
 run/main_scene="res://Game.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 run/max_fps=120
 config/icon="res://icon.svg"
 run/size/window_height_override=608
@@ -245,11 +245,6 @@ Screenshot={
 3d_physics/layer_8="NavAdjust"
 3d_physics/layer_9="Grenade"
 
-[limbo_ai]
-
-behavior_tree/behavior_tree_default_dir="res://Characters/AI/Trees"
-behavior_tree/user_task_dir_1="res://Characters/AI/Tasks"
-
 [navigation]
 
 3d/default_cell_size=0.1
@@ -259,7 +254,7 @@ behavior_tree/user_task_dir_1="res://Characters/AI/Tasks"
 
 3d/run_on_separate_thread=true
 common/physics_jitter_fix=0.0
-3d/physics_engine="JoltPhysics3D"
+3d/physics_engine="Jolt Physics"
 3d/default_gravity=15.0
 common/physics_interpolation=true
 
@@ -268,5 +263,5 @@ common/physics_interpolation=true
 textures/vram_compression/import_etc2_astc=true
 lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
 lights_and_shadows/directional_shadow/16_bits=false
-occlusion_culling/use_occlusion_culling=true
 lights_and_shadows/positional_shadow/atlas_16_bits=false
+occlusion_culling/use_occlusion_culling=true
