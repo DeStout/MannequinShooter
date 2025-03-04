@@ -1,9 +1,8 @@
-[gd_scene load_steps=27 format=3 uid="uid://b7b8mu23sphdn"]
+[gd_scene load_steps=26 format=3 uid="uid://b7b8mu23sphdn"]
 
-[ext_resource type="Script" path="res://Props/Weapons/Grenade/Explosion.gd" id="1_xphon"]
+[ext_resource type="Script" uid="uid://bwikdn406erca" path="res://Props/Weapons/Grenade/Explosion.gd" id="1_xphon"]
 [ext_resource type="Material" uid="uid://chxvulri54qwc" path="res://Props/Weapons/Grenade/SmokeMat.tres" id="2_c4smk"]
-[ext_resource type="Shader" path="res://Maps/BotSim/Temple/Assets/Materials/SpacialWarp.gdshader" id="2_hyide"]
-[ext_resource type="AudioStream" uid="uid://bqat8e3nbn2cg" path="res://Props/Weapons/Grenade/Explosion.ogg" id="2_i8ip1"]
+[ext_resource type="AudioStream" uid="uid://cae2yyyypbxga" path="res://Props/Weapons/Grenade/Explosion.ogg" id="2_i8ip1"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_a6s3c"]
 radius = 4.0
@@ -11,8 +10,6 @@ radius = 4.0
 [sub_resource type="SphereMesh" id="SphereMesh_qsmd7"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5giw7"]
-render_priority = 0
-shader = ExtResource("2_hyide")
 
 [sub_resource type="SphereMesh" id="SphereMesh_cx31x"]
 
@@ -247,8 +244,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_t2jhg"]
 _data = {
-"Explosion": SubResource("Animation_icrfi"),
-"RESET": SubResource("Animation_y16od")
+&"Explosion": SubResource("Animation_icrfi"),
+&"RESET": SubResource("Animation_y16od")
 }
 
 [node name="ShapeCast3D" type="ShapeCast3D"]

@@ -1,15 +1,15 @@
 [gd_scene load_steps=23 format=3 uid="uid://rxukaqt4ny7i"]
 
-[ext_resource type="Script" path="res://Characters/CharacterBase.gd" id="1_yx3tv"]
+[ext_resource type="Script" uid="uid://dbkt0h04xy0di" path="res://Characters/CharacterBase.gd" id="1_yx3tv"]
 [ext_resource type="PackedScene" uid="uid://31u0y7afils0" path="res://Characters/MannyBase.tscn" id="2_72flb"]
-[ext_resource type="Script" path="res://Characters/BodySeg.gd" id="3_7foop"]
+[ext_resource type="Script" uid="uid://og6uyb2ujj5s" path="res://Characters/BodySeg.gd" id="3_7foop"]
 [ext_resource type="PackedScene" uid="uid://ckqtvo1inhvtn" path="res://Props/Weapons/Slapper/Slapper.tscn" id="4_p4oww"]
-[ext_resource type="Script" path="res://Characters/BotSim/Voice.gd" id="5_jbox1"]
-[ext_resource type="AudioStream" uid="uid://dvwslqt03fwb6" path="res://Props/Weapons/Slapper/Slap.ogg" id="6_yshs0"]
-[ext_resource type="Script" path="res://Utilities/RandomAudio.gd" id="7_mr02m"]
-[ext_resource type="AudioStream" uid="uid://b56r0e1ges6xc" path="res://Characters/Audio/footstep1.ogg" id="8_234yh"]
-[ext_resource type="AudioStream" uid="uid://doju4xf4dtgt" path="res://Characters/Audio/footstep2.ogg" id="9_384lx"]
-[ext_resource type="AudioStream" uid="uid://cxbr801up84rw" path="res://Characters/Audio/footstep4.ogg" id="10_mg7u6"]
+[ext_resource type="Script" uid="uid://cpeuipnkruvvh" path="res://Characters/BotSim/Voice.gd" id="5_jbox1"]
+[ext_resource type="AudioStream" uid="uid://dq3laajqf7o4t" path="res://Props/Weapons/Slapper/Slap.ogg" id="6_yshs0"]
+[ext_resource type="Script" uid="uid://chgs3tf635lab" path="res://Utilities/RandomAudio.gd" id="7_mr02m"]
+[ext_resource type="AudioStream" uid="uid://l58x27o6itd" path="res://Characters/Audio/footstep1.ogg" id="8_234yh"]
+[ext_resource type="AudioStream" uid="uid://4a14lsrympeo" path="res://Characters/Audio/footstep2.ogg" id="9_384lx"]
+[ext_resource type="AudioStream" uid="uid://cf03rnq5funoc" path="res://Characters/Audio/footstep4.ogg" id="10_mg7u6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5yxej"]
 radius = 0.35

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://deb8d32ryxk1n"]
 
 [ext_resource type="PackedScene" uid="uid://db8n5p7wvqmqg" path="res://Characters/Player/FirstPerson/Anims/FP_RifleAnims.blend" id="1_sstd0"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_hfq71"]
+[ext_resource type="Script" uid="uid://cr7xlr4rhakun" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_hfq71"]
 [ext_resource type="Material" uid="uid://d2cwb1tlpjtsi" path="res://Props/Weapons/Rifle/Rifle_Mat.tres" id="3_k7htg"]
 
 [node name="FP_Rifle" node_paths=PackedStringArray("weapon_mesh") instance=ExtResource("1_sstd0")]

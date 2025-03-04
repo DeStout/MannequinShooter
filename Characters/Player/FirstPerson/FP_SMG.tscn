@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cbyw05bkm46t1"]
 
 [ext_resource type="PackedScene" uid="uid://cncyyqssn24po" path="res://Characters/Player/FirstPerson/Anims/FP_SMGAnims.blend" id="1_y4uu0"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_31udl"]
+[ext_resource type="Script" uid="uid://cr7xlr4rhakun" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_31udl"]
 [ext_resource type="Material" uid="uid://cx4qos30v047i" path="res://Props/Weapons/SMG/SMG_Mat.tres" id="3_lh50t"]
 
 [node name="FP_SMG" node_paths=PackedStringArray("weapon_mesh") instance=ExtResource("1_y4uu0")]

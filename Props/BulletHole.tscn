@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bxre7tcxkvakf"]
 
 [ext_resource type="Texture2D" uid="uid://dia1tcibepy23" path="res://Props/bullet_hole.png" id="1_se2qb"]
-[ext_resource type="Script" path="res://Props/BulletHole.gd" id="2_hk442"]
+[ext_resource type="Script" uid="uid://bw5ihadmsqnj1" path="res://Props/BulletHole.gd" id="2_hk442"]
 [ext_resource type="AudioStream" uid="uid://dgudfyms0v4ku" path="res://Props/Ricochet.wav" id="3_tjw7r"]
 
 [node name="BulletHole" type="Decal"]

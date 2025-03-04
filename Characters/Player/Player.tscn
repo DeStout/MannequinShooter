@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://r3koenwobfw4"]
 
 [ext_resource type="PackedScene" uid="uid://65jhlh1xbkow" path="res://Characters/CharacterBase.tscn" id="1_x0s2j"]
-[ext_resource type="Script" path="res://Characters/Player/Player.gd" id="2_v47e3"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FirstPerson.gd" id="3_hpkn3"]
-[ext_resource type="Shader" path="res://Characters/Player/FirstPerson/FPShader.gdshader" id="5_te2xj"]
+[ext_resource type="Script" uid="uid://do5gdbhuk5qsv" path="res://Characters/Player/Player.gd" id="2_v47e3"]
+[ext_resource type="Script" uid="uid://b4hrcbjcv43ou" path="res://Characters/Player/FirstPerson/FirstPerson.gd" id="3_hpkn3"]
+[ext_resource type="Shader" uid="uid://csxyarfcca6j5" path="res://Characters/Player/FirstPerson/FPShader.gdshader" id="5_te2xj"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_bd5r0"]
 flip_faces = true

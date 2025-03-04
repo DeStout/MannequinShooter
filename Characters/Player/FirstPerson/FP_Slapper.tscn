@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cwx7axmj3m8ke"]
 
 [ext_resource type="PackedScene" uid="uid://e1e674ae5hqo" path="res://Characters/Player/FirstPerson/Anims/FP_SlapperAnims.blend" id="1_qtgyi"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_lyvcy"]
+[ext_resource type="Script" uid="uid://cr7xlr4rhakun" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_lyvcy"]
 
 [node name="FP_Slapper" node_paths=PackedStringArray("weapon_mesh") instance=ExtResource("1_qtgyi")]
 script = ExtResource("2_lyvcy")

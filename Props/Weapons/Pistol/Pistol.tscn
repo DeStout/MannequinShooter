@@ -2,10 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://cqknl4fa1ofy" path="res://Props/Weapons/WeaponBase.tscn" id="1_ufvh7"]
 [ext_resource type="PackedScene" uid="uid://c7c70o2wmstqa" path="res://Props/Weapons/Pistol/PistolBase.tscn" id="2_7dgsw"]
-[ext_resource type="Script" path="res://Props/Weapons/BulletWeapon.gd" id="2_lkq84"]
+[ext_resource type="Script" uid="uid://bj4n7cnyqoln2" path="res://Props/Weapons/BulletWeapon.gd" id="2_lkq84"]
 [ext_resource type="Resource" uid="uid://c0650j8mcrbva" path="res://Props/Weapons/Pistol/PistolProperties.tres" id="2_nles1"]
-[ext_resource type="AudioStream" uid="uid://hhtniilpnas5" path="res://Props/Weapons/Pistol/PistolReload.ogg" id="5_1n1px"]
-[ext_resource type="AudioStream" uid="uid://ddnxsubfu5btr" path="res://Props/Weapons/Pistol/PistolShoot.ogg" id="5_32pkx"]
+[ext_resource type="AudioStream" uid="uid://fhfw7l0hshmn" path="res://Props/Weapons/Pistol/PistolReload.ogg" id="5_1n1px"]
+[ext_resource type="AudioStream" uid="uid://dpo11nkt85sjm" path="res://Props/Weapons/Pistol/PistolShoot.ogg" id="5_32pkx"]
 
 [node name="Pistol" instance=ExtResource("1_ufvh7")]
 script = ExtResource("2_lkq84")

@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=3 uid="uid://cv1xbqlbbiyub"]
 
-[ext_resource type="Script" path="res://Characters/Campaign/CampaignEnemy.gd" id="1_6r1n6"]
+[ext_resource type="Script" uid="uid://bakqol02hq5x5" path="res://Characters/Campaign/CampaignEnemy.gd" id="1_6r1n6"]
 [ext_resource type="PackedScene" uid="uid://65jhlh1xbkow" path="res://Characters/CharacterBase.tscn" id="1_ywjkl"]
-[ext_resource type="Script" path="res://addons/StateMachine/StateMachine/state_machine.gd" id="3_2ytcc"]
-[ext_resource type="Script" path="res://Characters/Campaign/CampaignFunc.gd" id="3_8llv2"]
-[ext_resource type="Script" path="res://Characters/Campaign/GuardState.gd" id="4_y83vb"]
-[ext_resource type="Script" path="res://Characters/Campaign/AlertState.gd" id="5_f7e51"]
+[ext_resource type="Script" uid="uid://oh5umyrnpcif" path="res://addons/StateMachine/StateMachine/state_machine.gd" id="3_2ytcc"]
+[ext_resource type="Script" uid="uid://c5mnejmpvfi1t" path="res://Characters/Campaign/CampaignFunc.gd" id="3_8llv2"]
+[ext_resource type="Script" uid="uid://dn4wpcmcw6rvr" path="res://Characters/Campaign/GuardState.gd" id="4_y83vb"]
+[ext_resource type="Script" uid="uid://3winwm8gw67q" path="res://Characters/Campaign/AlertState.gd" id="5_f7e51"]
 [ext_resource type="PackedScene" uid="uid://bd2fp3xjnl5vp" path="res://Characters/Campaign/VisionCone.tscn" id="6_oihj4"]
 [ext_resource type="Material" uid="uid://nd3s5x5tfn4y" path="res://Characters/Campaign/EnemyMat.tres" id="7_c21dw"]
 

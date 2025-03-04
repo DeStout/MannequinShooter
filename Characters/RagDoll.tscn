@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=4 uid="uid://cb0cgx6mcv6nh"]
 
-[ext_resource type="Script" path="res://Characters/RagDoll.gd" id="1_wih3r"]
+[ext_resource type="Script" uid="uid://203q18bkmeni" path="res://Characters/RagDoll.gd" id="1_wih3r"]
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_h17yv"]
 resource_name = "MannyAnims_Alpha_Joints"

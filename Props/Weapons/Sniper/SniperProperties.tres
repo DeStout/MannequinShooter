@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="BulletWeaponProperties" load_steps=2 format=3 uid="uid://c5yeg7feu1anw"]
 
-[ext_resource type="Script" path="res://Props/Weapons/BulletWeaponProperties.gd" id="1_xrgia"]
+[ext_resource type="Script" uid="uid://cdch1fi4p0iuq" path="res://Props/Weapons/BulletWeaponProperties.gd" id="1_xrgia"]
 
 [resource]
 script = ExtResource("1_xrgia")
@@ -21,6 +21,5 @@ default_variance = 0.005
 max_variance = 0.015
 variance_build = 0.003
 variance_reset = 10.0
-variance_reset_weight = null
 pos_offset = Vector3(-0.0190888, -0.108876, 0.0337282)
 rot_offset = Vector3(-1.27062, 1.5708, -1.47828e-07)

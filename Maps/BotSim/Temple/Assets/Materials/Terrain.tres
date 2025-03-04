@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://isleghls2oka"]
+
+[ext_resource type="Texture2D" uid="uid://bmqu66ey5x82r" path="res://Maps/BotSim/Temple/Assets/Materials/Textures/Terrain/Terrain003_8K_Color.png" id="1_jrqqy"]
+[ext_resource type="Texture2D" uid="uid://c04lebe75tgm1" path="res://Maps/BotSim/Temple/Assets/Materials/Textures/Terrain/Terrain003_2K_Protrusion.png" id="2_nxvsq"]
+[ext_resource type="Texture2D" uid="uid://yvyy7emk5isf" path="res://Maps/BotSim/Temple/Assets/Materials/Textures/Terrain/Terrain003_2K_Details.png" id="3_i30bn"]
+[ext_resource type="Texture2D" uid="uid://dan384y45p1h4" path="res://Maps/BotSim/Temple/Assets/Materials/Textures/Terrain/Terrain003_2K_Soil.png" id="3_u3cvy"]
+
+[resource]
+albedo_texture = ExtResource("1_jrqqy")
+metallic_specular = 0.0
+roughness_texture = ExtResource("3_u3cvy")
+ao_light_affect = 1.0
+ao_texture = ExtResource("2_nxvsq")
+detail_albedo = ExtResource("1_jrqqy")
+detail_normal = ExtResource("3_i30bn")

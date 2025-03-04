@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://di2yt2mm3cu4s"]
 
 [ext_resource type="PackedScene" uid="uid://c84m2rgvte01j" path="res://Characters/Player/FirstPerson/Anims/FP_PistolAnims.blend" id="1_csryp"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_0s0fx"]
+[ext_resource type="Script" uid="uid://cr7xlr4rhakun" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_0s0fx"]
 [ext_resource type="Material" uid="uid://cqwagpvoohpyk" path="res://Props/Weapons/Pistol/Pistol_Mat.tres" id="3_u0r4a"]
 
 [node name="FP_Pistol" node_paths=PackedStringArray("weapon_mesh") instance=ExtResource("1_csryp")]

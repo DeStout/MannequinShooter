@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=4 uid="uid://g15slaechxh8"]
 
-[ext_resource type="Texture2D" uid="uid://df4ks6s7iojvd" path="res://Props/Weapons/SMG/SMG_SMG_A.png" id="1_umouf"]
+[ext_resource type="Texture2D" uid="uid://6h5ceat4tji8" path="res://Props/Weapons/SMG/SMG_SMG_A.png" id="1_umouf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y6s0v"]
 resource_name = "Material"

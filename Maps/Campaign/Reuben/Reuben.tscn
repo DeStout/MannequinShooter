@@ -1,14 +1,12 @@
-[gd_scene load_steps=41 format=3 uid="uid://dvenckx2dn3c0"]
+[gd_scene load_steps=39 format=3 uid="uid://dvenckx2dn3c0"]
 
-[ext_resource type="PackedScene" uid="uid://dcesl64wxrgro" path="res://Maps/Campaign/CampaignLevel.tscn" id="1_j16dn"]
-[ext_resource type="Texture2D" uid="uid://dm4fw4cn6xt2m" path="res://Maps/Campaign/Materials/Dev/Campaign1_tex_7.png" id="2_da4iw"]
+[ext_resource type="PackedScene" uid="uid://4k3aoicp5qnt" path="res://Maps/Campaign/CampaignLevel.tscn" id="1_j16dn"]
 [ext_resource type="PackedScene" uid="uid://bb1otskk4hdc6" path="res://Characters/Player/CampaignPlayer.tscn" id="2_gfpqq"]
-[ext_resource type="Script" path="res://Maps/Utilities/Ladder.gd" id="3_dpimj"]
+[ext_resource type="Script" uid="uid://dsn0m5cbt6rc1" path="res://Maps/Utilities/Ladder.gd" id="3_dpimj"]
 [ext_resource type="PackedScene" uid="uid://cv1xbqlbbiyub" path="res://Characters/Campaign/CampaignEnemy.tscn" id="3_u7umk"]
-[ext_resource type="Texture2D" uid="uid://41faj8pfp84a" path="res://Maps/Campaign/Materials/Dev/T_Orange_D.png" id="4_ekh5x"]
 [ext_resource type="PackedScene" uid="uid://ci6uy4jghak2i" path="res://Maps/Utilities/SlidingDoor.tscn" id="5_aedjw"]
-[ext_resource type="Script" path="res://Maps/Utilities/UseEvent.gd" id="6_awoyt"]
-[ext_resource type="Script" path="res://Maps/Campaign/Reuben/UnlockDoor.gd" id="7_2am84"]
+[ext_resource type="Script" uid="uid://duf4b1hha6bql" path="res://Maps/Utilities/UseEvent.gd" id="6_awoyt"]
+[ext_resource type="Script" uid="uid://ceg3wkwcij0gk" path="res://Maps/Campaign/Reuben/UnlockDoor.gd" id="7_2am84"]
 [ext_resource type="PackedScene" uid="uid://csaruiackbvkq" path="res://Props/PickUps/WeaponPickUp.tscn" id="8_32aah"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3c3tv"]
@@ -31,7 +29,6 @@ vertices = PackedVector3Array(-49.5, 0.499998, -74.5, -49.5, 0.499998, 74.5, 49.
 polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_frycf"]
-albedo_texture = ExtResource("2_da4iw")
 uv1_scale = Vector3(100, 150, 1)
 uv1_offset = Vector3(2, 0.5, 2)
 
@@ -87,7 +84,6 @@ size = Vector3(0.75, 6, 0.1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5pcyf"]
 albedo_color = Color(1, 0.850903, 0, 1)
-albedo_texture = ExtResource("4_ekh5x")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_sgqpi"]
 points = PackedVector3Array(-0.375, -3, -0.05, -0.375, -3, 0.05, -0.375, 3, -0.05, 0.375, -3, -0.05, 0.375, -3, 0.05, -0.375, 3, 0.05, 0.375, 3, -0.05, 0.375, 3, 0.05)
@@ -106,12 +102,10 @@ points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1f57o"]
 transparency = 1
 albedo_color = Color(0.231373, 0.215686, 0.207843, 0.756863)
-albedo_texture = ExtResource("4_ekh5x")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_adg48"]
 transparency = 1
 albedo_color = Color(0.231373, 0.215686, 0.207843, 0.756863)
-albedo_texture = ExtResource("4_ekh5x")
 
 [node name="Level" node_paths=PackedStringArray("player") instance=ExtResource("1_j16dn")]
 player = NodePath("Players/Player")

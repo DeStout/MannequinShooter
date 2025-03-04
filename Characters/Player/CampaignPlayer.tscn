@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bb1otskk4hdc6"]
 
 [ext_resource type="PackedScene" uid="uid://r3koenwobfw4" path="res://Characters/Player/Player.tscn" id="1_iikgw"]
-[ext_resource type="Script" path="res://Characters/Campaign/CampaignFunc.gd" id="3_8exbb"]
+[ext_resource type="Script" uid="uid://c5mnejmpvfi1t" path="res://Characters/Campaign/CampaignFunc.gd" id="3_8exbb"]
 
 [node name="Player" node_paths=PackedStringArray("mode_func") instance=ExtResource("1_iikgw")]
 mode_func = NodePath("CampaignFunc")

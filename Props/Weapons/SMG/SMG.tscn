@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://dh23vd3s1cpss"]
 
 [ext_resource type="PackedScene" uid="uid://cqknl4fa1ofy" path="res://Props/Weapons/WeaponBase.tscn" id="1_ar4bi"]
-[ext_resource type="Script" path="res://Props/Weapons/BulletWeapon.gd" id="2_608v6"]
+[ext_resource type="Script" uid="uid://bj4n7cnyqoln2" path="res://Props/Weapons/BulletWeapon.gd" id="2_608v6"]
 [ext_resource type="PackedScene" uid="uid://g15slaechxh8" path="res://Props/Weapons/SMG/SMGBase.tscn" id="2_qy2yi"]
 [ext_resource type="Resource" uid="uid://dspa676i0l216" path="res://Props/Weapons/SMG/SMGProperties.tres" id="3_72tjw"]
-[ext_resource type="AudioStream" uid="uid://hhtniilpnas5" path="res://Props/Weapons/Pistol/PistolReload.ogg" id="4_ojmin"]
-[ext_resource type="AudioStream" uid="uid://bsro3ova16ae2" path="res://Props/Weapons/SMG/SMG.ogg" id="5_1eirt"]
+[ext_resource type="AudioStream" uid="uid://fhfw7l0hshmn" path="res://Props/Weapons/Pistol/PistolReload.ogg" id="4_ojmin"]
+[ext_resource type="AudioStream" uid="uid://co35f741767o8" path="res://Props/Weapons/SMG/SMG.ogg" id="5_1eirt"]
 
 [node name="SMG" instance=ExtResource("1_ar4bi")]
 script = ExtResource("2_608v6")

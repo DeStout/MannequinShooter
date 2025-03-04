@@ -1,11 +1,11 @@
 [gd_scene load_steps=8 format=3 uid="uid://ct28b2w5o4gyu"]
 
 [ext_resource type="PackedScene" uid="uid://65jhlh1xbkow" path="res://Characters/CharacterBase.tscn" id="1_rm3je"]
-[ext_resource type="Script" path="res://Characters/BotSim/BotSimEnemy.gd" id="2_f8x2w"]
-[ext_resource type="Script" path="res://addons/StateMachine/StateMachine/state_machine.gd" id="3_qmqky"]
-[ext_resource type="Script" path="res://Characters/BotSim/BotSimFunc.gd" id="3_ys16m"]
-[ext_resource type="Script" path="res://Characters/BotSim/SeekState.gd" id="4_cywgt"]
-[ext_resource type="Script" path="res://Characters/BotSim/EngageState.gd" id="5_5mojb"]
+[ext_resource type="Script" uid="uid://c08wnw43ekt1n" path="res://Characters/BotSim/BotSimEnemy.gd" id="2_f8x2w"]
+[ext_resource type="Script" uid="uid://oh5umyrnpcif" path="res://addons/StateMachine/StateMachine/state_machine.gd" id="3_qmqky"]
+[ext_resource type="Script" uid="uid://cbk0omojbctap" path="res://Characters/BotSim/BotSimFunc.gd" id="3_ys16m"]
+[ext_resource type="Script" uid="uid://bkw0631aqic7g" path="res://Characters/BotSim/SeekState.gd" id="4_cywgt"]
+[ext_resource type="Script" uid="uid://c01mqa8a3ddpk" path="res://Characters/BotSim/EngageState.gd" id="5_5mojb"]
 [ext_resource type="PackedScene" uid="uid://bd2fp3xjnl5vp" path="res://Characters/Campaign/VisionCone.tscn" id="6_kydgb"]
 
 [node name="BotSimEnemy" node_paths=PackedStringArray("mode_func", "camera") instance=ExtResource("1_rm3je")]

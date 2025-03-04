@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cfxw1fu0gu3xe"]
 
 [ext_resource type="PackedScene" uid="uid://csmgkqdlx3ule" path="res://Characters/Player/FirstPerson/Anims/FP_GrenadeAnims.blend" id="1_ve1yf"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPGrenade.gd" id="2_epf5k"]
+[ext_resource type="Script" uid="uid://diveps7js5j3y" path="res://Characters/Player/FirstPerson/FPGrenade.gd" id="2_epf5k"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_etqw6"]
 albedo_color = Color(0.226563, 0.226563, 0.226563, 1)

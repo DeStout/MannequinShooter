@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://sr0hwfx8k4q2"]
 
-[ext_resource type="Script" path="res://Menus/OptionsMenu.gd" id="1_1evur"]
+[ext_resource type="Script" uid="uid://ebw4l6qk0n2j" path="res://Menus/OptionsMenu.gd" id="1_1evur"]
 [ext_resource type="Theme" uid="uid://c1t8b0kfqb6ey" path="res://Menus/MenuTheme.tres" id="2_v235q"]
-[ext_resource type="Script" path="res://Menus/AudioSetting.gd" id="3_p2er2"]
-[ext_resource type="Script" path="res://Menus/SensSetting.gd" id="4_kiwx0"]
+[ext_resource type="Script" uid="uid://ba5ua2347arrn" path="res://Menus/AudioSetting.gd" id="3_p2er2"]
+[ext_resource type="Script" uid="uid://cnepelx1squgw" path="res://Menus/SensSetting.gd" id="4_kiwx0"]
 
 [node name="OptionsMenu" type="Control" node_paths=PackedStringArray("master_slider", "music_slider", "sfx_slider", "mouse_slider", "controller_slider", "invert_y_box", "invincibility", "infinite_ammo", "bottomless_mag", "show_hud", "show_weapon_info", "show_crosshair")]
 layout_mode = 3

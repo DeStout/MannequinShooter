@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=3 uid="uid://ci6uy4jghak2i"]
 
-[ext_resource type="Script" path="res://Maps/Utilities/SlidingDoor.gd" id="1_70yfs"]
-[ext_resource type="AudioStream" uid="uid://uyjf7rfhpepa" path="res://Maps/Audio/SlidingDoorOpen.ogg" id="2_bmnfj"]
-[ext_resource type="Material" uid="uid://y1kyxgc8mxsu" path="res://Maps/Campaign/Materials/Dev/Orange.tres" id="2_pnf3o"]
-[ext_resource type="AudioStream" uid="uid://b2086xxmhhswm" path="res://Maps/Audio/SlidingDoorFinish.ogg" id="3_egfpd"]
+[ext_resource type="Script" uid="uid://cimqnsgb5mpln" path="res://Maps/Utilities/SlidingDoor.gd" id="1_70yfs"]
+[ext_resource type="AudioStream" uid="uid://213u18isdtge" path="res://Maps/Audio/SlidingDoorOpen.ogg" id="2_bmnfj"]
+[ext_resource type="Material" uid="uid://y1kyxgc8mxsu" path="res://Maps/Campaign/Test/Materials/Dev/Orange.tres" id="2_pnf3o"]
+[ext_resource type="AudioStream" uid="uid://dfogd2cddd8e4" path="res://Maps/Audio/SlidingDoorFinish.ogg" id="3_egfpd"]
 [ext_resource type="AudioStream" uid="uid://dyywym7urse4v" path="res://Maps/Audio/Select.wav" id="3_tmxbu"]
 [ext_resource type="AudioStream" uid="uid://c5bcvta4fphhn" path="res://Maps/Audio/Error.wav" id="4_33yyy"]
 

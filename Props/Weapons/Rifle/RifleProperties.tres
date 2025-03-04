@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="BulletWeaponProperties" load_steps=2 format=3 uid="uid://byfp57m203jiy"]
 
-[ext_resource type="Script" path="res://Props/Weapons/BulletWeaponProperties.gd" id="1_lpcpp"]
+[ext_resource type="Script" uid="uid://cdch1fi4p0iuq" path="res://Props/Weapons/BulletWeaponProperties.gd" id="1_lpcpp"]
 
 [resource]
 script = ExtResource("1_lpcpp")

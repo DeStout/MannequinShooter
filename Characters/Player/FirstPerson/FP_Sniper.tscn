@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cwk0ylm72qjqx"]
 
 [ext_resource type="PackedScene" uid="uid://bn7u5nokjmapi" path="res://Characters/Player/FirstPerson/Anims/FP_SniperAnims.blend" id="1_akdeg"]
-[ext_resource type="Script" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_uxwn7"]
+[ext_resource type="Script" uid="uid://cr7xlr4rhakun" path="res://Characters/Player/FirstPerson/FPWeapon.gd" id="2_uxwn7"]
 [ext_resource type="Material" uid="uid://b3605x8j3xshq" path="res://Props/Weapons/Sniper/Sniper_Mat.tres" id="3_s2tsl"]
 
 [node name="FP_Sniper" node_paths=PackedStringArray("weapon_mesh") instance=ExtResource("1_akdeg")]

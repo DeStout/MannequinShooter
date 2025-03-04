@@ -1,10 +1,10 @@
 [gd_scene load_steps=35 format=3 uid="uid://dpwat708l5iwi"]
 
 [ext_resource type="PackedScene" uid="uid://tckq6s43m5rx" path="res://Characters/Anims/MannyAnims.blend" id="1_l7rul"]
-[ext_resource type="Script" path="res://Temp/AnimControl.gd" id="2_g4n11"]
+[ext_resource type="Script" uid="uid://b4rbijrfs0pag" path="res://Temp/AnimControl.gd" id="2_g4n11"]
 [ext_resource type="PackedScene" uid="uid://c7c70o2wmstqa" path="res://Props/Weapons/Pistol/PistolBase.tscn" id="2_qvyj0"]
 [ext_resource type="Texture2D" uid="uid://b762t7r843oy8" path="res://Autoloads/HUD/Crosshair.svg" id="3_cujy2"]
-[ext_resource type="Script" path="res://Temp/CamPivot.gd" id="3_vpscu"]
+[ext_resource type="Script" uid="uid://d1e3yh72l0g2j" path="res://Temp/CamPivot.gd" id="3_vpscu"]
 
 [sub_resource type="AnimationNodeAdd2" id="AnimationNodeAdd2_oxbdl"]
 sync = true

@@ -2,10 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://cqknl4fa1ofy" path="res://Props/Weapons/WeaponBase.tscn" id="1_2nk2o"]
 [ext_resource type="PackedScene" uid="uid://c7isot5rpcwus" path="res://Props/Weapons/Rifle/RifleBase.tscn" id="2_oqy1o"]
-[ext_resource type="Script" path="res://Props/Weapons/BulletWeapon.gd" id="2_qgoj7"]
+[ext_resource type="Script" uid="uid://bj4n7cnyqoln2" path="res://Props/Weapons/BulletWeapon.gd" id="2_qgoj7"]
 [ext_resource type="Resource" uid="uid://byfp57m203jiy" path="res://Props/Weapons/Rifle/RifleProperties.tres" id="3_2b2pg"]
-[ext_resource type="AudioStream" uid="uid://c1rwua6fwo1vq" path="res://Props/Weapons/Rifle/RifleReload.ogg" id="5_kippd"]
-[ext_resource type="AudioStream" uid="uid://cqi8csv8ynwit" path="res://Props/Weapons/Rifle/RifleShoot.ogg" id="5_qrxmw"]
+[ext_resource type="AudioStream" uid="uid://cv7m8ny2vhmuq" path="res://Props/Weapons/Rifle/RifleReload.ogg" id="5_kippd"]
+[ext_resource type="AudioStream" uid="uid://drkyuw4sy4o5a" path="res://Props/Weapons/Rifle/RifleShoot.ogg" id="5_qrxmw"]
 
 [node name="Rifle" instance=ExtResource("1_2nk2o")]
 script = ExtResource("2_qgoj7")
