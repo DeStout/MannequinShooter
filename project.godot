@@ -253,7 +253,7 @@ Screenshot={
 [physics]
 
 3d/run_on_separate_thread=true
-common/physics_jitter_fix=0.0
+common/physics_jitter_fix=0.01
 3d/physics_engine="Jolt Physics"
 3d/default_gravity=15.0
 common/physics_interpolation=true

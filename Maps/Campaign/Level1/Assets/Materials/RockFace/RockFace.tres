@@ -1,9 +1,9 @@
-[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://cvkyh6oxrv3fw"]
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://fog75ce1ucf7"]
 
-[ext_resource type="Texture2D" uid="uid://vit3epys5dtr" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Albedo.png" id="1_22gwo"]
-[ext_resource type="Texture2D" uid="uid://dp4460xhu7k4j" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_AO.png" id="2_lped5"]
-[ext_resource type="Texture2D" uid="uid://cw20y6lu5taw6" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Normal.png" id="3_mrhuj"]
-[ext_resource type="Texture2D" uid="uid://cwwihj1tsviqa" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Roughness.png" id="4_mc8mo"]
+[ext_resource type="Texture2D" uid="uid://sl4gpww2ogvj" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Albedo.png" id="1_22gwo"]
+[ext_resource type="Texture2D" uid="uid://8i5ebt3hr1nq" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_AO.png" id="2_lped5"]
+[ext_resource type="Texture2D" uid="uid://cvd82noiw62ht" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Normal.png" id="3_mrhuj"]
+[ext_resource type="Texture2D" uid="uid://lgppmtsetirn" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace_Roughness.png" id="4_mc8mo"]
 
 [resource]
 albedo_texture = ExtResource("1_22gwo")

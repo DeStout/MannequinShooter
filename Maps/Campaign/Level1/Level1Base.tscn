@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://ch4aiveqyc2gx"]
 
 [ext_resource type="PackedScene" uid="uid://ntsm8m3itrvb" path="res://Maps/Campaign/Level1/Level1.blend" id="1_sxbb1"]
-[ext_resource type="Material" uid="uid://dglmcl7poxhy" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt.tres" id="2_cslb0"]
+[ext_resource type="Material" uid="uid://dlc7gqh4tccqu" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt.tres" id="2_cslb0"]
 [ext_resource type="Material" uid="uid://b6f1ujloga01d" path="res://Maps/Campaign/Level1/Assets/Materials/Concrete/Concrete.tres" id="3_4fgqn"]
-[ext_resource type="Material" uid="uid://cvkyh6oxrv3fw" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace.tres" id="4_mh5cs"]
+[ext_resource type="Material" uid="uid://fog75ce1ucf7" path="res://Maps/Campaign/Level1/Assets/Materials/RockFace/RockFace.tres" id="4_mh5cs"]
 [ext_resource type="Material" uid="uid://b53jgu3418lyd" path="res://Maps/Campaign/Level1/Assets/Materials/Metal/Metal.tres" id="4_p7asm"]
 [ext_resource type="Texture2D" uid="uid://cc6rnsfts08v2" path="res://Maps/Campaign/Level1/Assets/Materials/Metal/Metal_Albedo.png" id="5_i32u2"]
 [ext_resource type="Texture2D" uid="uid://cmo2cjdsbo6i" path="res://Maps/Campaign/Level1/Assets/Materials/Metal/Metal_Metal.png" id="6_mh5cs"]

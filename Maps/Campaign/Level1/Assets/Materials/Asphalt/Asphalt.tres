@@ -1,9 +1,9 @@
-[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://dglmcl7poxhy"]
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://dlc7gqh4tccqu"]
 
-[ext_resource type="Texture2D" uid="uid://chra0b8uga6oo" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Albedo.png" id="1_jyppk"]
-[ext_resource type="Texture2D" uid="uid://dopges68e6e0n" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_AO.png" id="2_mn6ks"]
-[ext_resource type="Texture2D" uid="uid://dgofpsco73bcj" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Normal.png" id="3_3jytm"]
-[ext_resource type="Texture2D" uid="uid://djcyng4c302nx" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Roughness.png" id="4_2tdx5"]
+[ext_resource type="Texture2D" uid="uid://bq4waq3fm7lkr" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Albedo.png" id="1_jyppk"]
+[ext_resource type="Texture2D" uid="uid://c6wn2rtisyi4f" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_AO.png" id="2_mn6ks"]
+[ext_resource type="Texture2D" uid="uid://djr0teii4ce6k" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Normal.png" id="3_3jytm"]
+[ext_resource type="Texture2D" uid="uid://bwvfpuka4f3bi" path="res://Maps/Campaign/Level1/Assets/Materials/Asphalt/Asphalt_Roughness.png" id="4_2tdx5"]
 
 [resource]
 albedo_texture = ExtResource("1_jyppk")
