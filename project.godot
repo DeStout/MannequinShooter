@@ -252,11 +252,9 @@ Screenshot={
 
 [physics]
 
-3d/run_on_separate_thread=true
-common/physics_jitter_fix=0.01
+common/physics_jitter_fix=0.0
 3d/physics_engine="Jolt Physics"
 3d/default_gravity=15.0
-common/physics_interpolation=true
 
 [rendering]
 
@@ -265,3 +263,5 @@ lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
 lights_and_shadows/directional_shadow/16_bits=false
 lights_and_shadows/positional_shadow/atlas_16_bits=false
 occlusion_culling/use_occlusion_culling=true
+occlusion_culling/physics_interpolation=true
+occlusion_culling/physics_jitter_fix=0.01

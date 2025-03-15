@@ -29,7 +29,8 @@ func load(load_path : String, new_map_return : Callable, new_map_load : Callable
 
 
 func _process(delta: float) -> void:
-	_update_load()
+	if fake_progress < 100:
+		_update_load()
 	_update_UI(delta)
 
 
@@ -39,7 +40,7 @@ func _update_load() -> void:
 		
 	if fake_progress < int(progress[0]*100):
 		fake_progress += min(randi_range(0, 2), int(progress[0]*100 - fake_progress))
-	elif fake_progress == 100:
+	if fake_progress == 100:
 		$Percent.modulate = Color.BLUE
 		$Continue.visible = true
 		
